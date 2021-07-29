@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cy1-nM-x1Z">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JyU-sF-1ZE">
-                                <rect key="frame" x="16" y="140" width="184" height="60"/>
+                                <rect key="frame" x="16" y="32" width="261" height="60"/>
                                 <color key="backgroundColor" red="0.25963211149999998" green="0.84723739850000002" blue="0.4173116684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Omg-hV-Hdy">
@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNf-QO-eEZ">
-                                <rect key="frame" x="16" y="710" width="382" height="62"/>
+                                <rect key="frame" x="16" y="168" width="536" height="62"/>
                                 <color key="backgroundColor" red="0.26137902011070913" green="0.77202946815859919" blue="0.85206896309208491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="IW3-ek-bIR">
@@ -49,7 +49,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixh-4B-7eo">
-                                <rect key="frame" x="16" y="780" width="382" height="62"/>
+                                <rect key="frame" x="16" y="238" width="536" height="62"/>
                                 <color key="backgroundColor" red="0.21209506340000001" green="0.7699399952" blue="0.6118925221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="g6w-ht-Ft5"/>
@@ -63,7 +63,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDb-ru-ezu">
-                                <rect key="frame" x="16" y="640" width="382" height="62"/>
+                                <rect key="frame" x="16" y="98" width="536" height="62"/>
                                 <color key="backgroundColor" red="0.29383422069999998" green="0.85166944929999999" blue="0.93586614820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="SII-JP-iJw">
@@ -77,7 +77,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyZ-nd-rA8">
-                                <rect key="frame" x="214" y="140" width="184" height="60"/>
+                                <rect key="frame" x="291" y="32" width="261" height="60"/>
                                 <color key="backgroundColor" red="0.86262003040000002" green="0.62404729719999996" blue="0.23463206650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="137" id="EdQ-FO-57b"/>
@@ -165,7 +165,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cy1-nM-x1Z" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="O3z-SA-yKH">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.13588870820000001" green="0.49329838069999998" blue="0.39203781100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.2376255957" green="0.86262003040000002" blue="0.68554789900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
